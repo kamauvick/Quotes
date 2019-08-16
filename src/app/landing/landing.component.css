@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+.landing {
+    background-image: url('src/assets/geo.jpg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-text {
+    position: relative;
+    font-size: 70px;
+    color: darkgoldenrod;
+    top: 30%;
+    font-family: 'Cabin Sketch', cursive;
+}

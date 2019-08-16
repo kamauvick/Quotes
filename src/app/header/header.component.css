@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+#holder {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 10px;
+}
+
+.navi h2 {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+ul {}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
