@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.9);
     padding-top: 10px;
+    position: sticky;
 }
 
 .navi {

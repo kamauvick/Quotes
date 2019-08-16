@@ -1,0 +1,17 @@
+.card {
+    height: 200px;
+    margin: 10px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.card-header {
+    background-color: mediumaquamarine;
+    color: white;
+    border: none;
+}
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+}

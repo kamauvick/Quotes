@@ -1,1 +1,13 @@
-<p>quote works!</p>
+<div class="quotes">
+    <div class="card" *ngFor="let quote of quotes">
+        <div class="card-header">
+            <h2 class="text-center">{{quote.title}}</h2>
+        </div>
+        <div class="card-body">
+            <p class="text-center">{{quote.message}}</p>
+        </div>
+        <div class="card-footer">
+            <h5 class="text-center">{{quote.date | date}}</h5>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.search {
+    border: none;
+    background-color: #66000000;
+    border-bottom: 1px solid white;
+    position: relative;
+    top: 60px;
+}
+
+input::placeholder {
+    color: wheat;
+    text-align: center;
+    font-size: 23px;
+}
+
+input {
+    color: red;
+}
