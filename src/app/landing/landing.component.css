@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .landing {
-    /* background-image: url('src/assets/geo.jpg'); */
-    /* height: 613px; */
     background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    height: inherit;
 }
 
 .overlay {

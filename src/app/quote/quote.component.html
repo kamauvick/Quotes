@@ -1,13 +1,15 @@
 <div class="quotes  mx-auto">
-    <div class="card" *ngFor="let quote of quotes">
+    <div class="card" cdkDrag *ngFor="let quote of quotes">
         <div class="card-header">
-            <h2 class="text-center">{{quote.title}}</h2>
+            <h4 class="text-center">{{quote.title}}</h4><button class="btn btn-danger del" style="border-radius: 50%; width: 30px; height: 30px; margin-bottom: 20px" (click)="delQuotes(true)">-
+      </button>
         </div>
         <div class="card-body">
-            <p class="text-center">{{quote.message}}</p>
+            <p class="text-center">{{quote.message}}</p><br>
+            <p> ~{{quote.author}}</p>
         </div>
         <div class="card-footer">
-            <h5 class="text-center">{{quote.date | date}} &nbsp; {{quote.author}}</h5>
+            <h6 class="text-center">{{quote.date | date}}</h6>
         </div>
     </div>
 </div>
