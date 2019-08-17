@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 .landing {
     background-image: url('src/assets/geo.jpg');
-    height: 613px;
+    /* height: 613px; */
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;

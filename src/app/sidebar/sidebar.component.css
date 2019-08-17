@@ -3,6 +3,11 @@
     justify-content: space-evenly;
 }
 
+.sb {
+    position: sticky;
+    top: 0;
+}
+
 button {
     margin: 8px;
     /* border-radius: 10px; */
@@ -11,6 +16,7 @@ button {
 .logo {
     background-image: url("src/assets/logoq.png");
     height: 80px;
+    z-index: 4;
     width: 80px;
     border-radius: 50%;
     margin-top: 8px;
