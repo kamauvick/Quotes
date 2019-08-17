@@ -23,12 +23,12 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
     QuoteComponent,
     SidebarComponent,
     QuoteFormComponent,
-    FormsModule,
     QuoteVoteComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
