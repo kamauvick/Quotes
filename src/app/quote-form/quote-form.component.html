@@ -2,20 +2,21 @@
     <h5 class="text-center">Create a new quote:</h5>
     <form action="" #goalForm='ngForm'>
         <label for="title">
-            <input type="text" class="form-control col-sm-12" id="title"  placeholder="Title.." [(ngModel)]="newGoal.title" name="title">
+            <input type="text" class="form-control col-sm-12" id="title"  placeholder="Title.." [(ngModel)]="newQuote.title" name="title" #name='ngModel' required>
         </label>
         <label for="message">
-            <textarea  id="message" cols="50" rows="10" placeholder="Quote.." class="form-control" [(ngModel)]="newGoal.message" name="message"></textarea>
+            <textarea  id="message" cols="50" rows="10" placeholder="Quote.." class="form-control" [(ngModel)]="newQuote.message" name="message"></textarea>
         </label>
         <label for="author">
-            <input type="text" class="form-control col-sm-12" id="author" placeholder="Author" [(ngModel)]="newGoal.author" name="author">
+            <input type="text" class="form-control col-sm-12" id="author" placeholder="Author" [(ngModel)]="newQuote.author" name="author">
         </label>
-       <div class="form-group">
+        <div class="form-group">
 
-          <label for="complete">Completion</label>
-          <input type='date' id="complete" required>
+            <label for="complete">Completion</label>
+            <input type='date' id="complete" required>
 
-      </div>
+        </div>
     </form>
     <button class="btn btn-success d-block mx-auto add-quote-btn" type="submit">Add Quote</button>
+    <h3>test {{newQuote.title}}</h3>
 </div>
