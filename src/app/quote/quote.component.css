@@ -1,12 +1,14 @@
 .card {
     height: 200px;
     margin: 10px;
-    width: 300px;
+    width: 280px;
     margin-left: 20px;
+    border: none;
 }
 
 .card-header {
-    background-color: mediumaquamarine;
+    background-color: purple;
+    opacity: 0.6;
     color: white;
     border: none;
 }

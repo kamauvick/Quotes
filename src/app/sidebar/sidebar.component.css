@@ -5,12 +5,17 @@
 
 .sb {
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 button {
-    margin: 8px;
-    /* border-radius: 10px; */
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.holder {
+    position: relative;
+    top: 0;
 }
 
 .logo {

@@ -2,7 +2,7 @@
 #holder {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 1);
     padding-top: 10px;
     position: sticky;
 }
@@ -18,7 +18,7 @@
     color: white;
     margin-left: 20px;
     font-family: 'Cabin Sketch', cursive;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 ul {}

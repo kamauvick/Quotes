@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 .landing {
-    background-image: url('src/assets/geo.jpg');
+    /* background-image: url('src/assets/geo.jpg'); */
     /* height: 613px; */
+    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -10,7 +11,7 @@
 
 .overlay {
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: black;
 }
 
 .header-text {
