@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+
+/* 
 #holder {
     display: flex;
     justify-content: space-between;
@@ -36,4 +38,16 @@ a {
 a:hover {
     font-size: 18px;
     color: yellow;
+} */
+
+.navbar {
+    background-color: teal;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.brand {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 25px;
 }
