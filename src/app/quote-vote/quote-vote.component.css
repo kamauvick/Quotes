@@ -1,0 +1,29 @@
+.vote{
+  display: flex;
+  justify-content: flex-end;
+}
+div, h5{
+  padding: 5px;
+}
+.hover:hover{
+  border: yellow;
+}
+h5{
+  font-weight: lighter;
+}
+.vote-btn-like{
+  background-image: url("~src/assets/like.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}
+.vote-btn-dislike{
+  background-image: url("~src/assets/dislike.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}

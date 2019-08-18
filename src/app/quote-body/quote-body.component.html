@@ -1,6 +1,9 @@
-<div class="body">
+<div class="">
   <p>posted on {{quote.date | dateCount}} day(s)</p>
-  <button class="btn  del" (click)="delQuote(true)">
-  </button>
 </div>
-<app-quote-vote></app-quote-vote>
+<div class="body">
+  <app-quote-vote></app-quote-vote>
+  <div class="btn del" (click)="delQuote(true)">
+  </div>
+</div>
+

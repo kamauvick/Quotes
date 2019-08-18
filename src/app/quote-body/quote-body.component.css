@@ -3,9 +3,11 @@ p{
 }
 .body{
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 .del{
-  background-image: url("~src/assets/del.png");
+  background-image: url("~src/assets/x.svg");
   height: 30px;
   width: 30px;
   background-size: cover;

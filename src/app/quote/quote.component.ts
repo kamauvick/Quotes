@@ -12,12 +12,12 @@ export class QuoteComponent implements OnInit {
   @Output() myData = new EventEmitter();
   quotes: Quote[] = [
     // tslint:disable-next-line:max-line-length
-    new Quote('Ninja', 'Life is not a mater of holding mater of holding', 'Jack london', new Date(2019, 8 - 1, 17)),
-    new Quote('Polly ', 'Life is a gift..use it', 'Hellen Nike', new Date(2019, 23, 3)),
-    new Quote('Rose ', 'This is my ninja', 'vick', new Date(2019, 23, 3)),
-    new Quote('Vick', 'Life is not a matter of holding', 'Jack london', new Date(2019, 8 - 1, 17)),
-    new Quote('Jane ', 'Life is a gift..use it', 'Hellen Nike', new Date(2019, 23, 3)),
-    new Quote('Winnie ', 'This is my ninja', 'vick', new Date(2019, 23, 3))
+    new Quote('Ninja', 'Life is not a mater of holding mater of holding', 'Jack london', new Date(2019, 8 - 1, 17), 0, 0),
+    new Quote('Polly ', 'Life is a gift..use it', 'Hellen Nike', new Date(2019, 23, 3), 0, 0),
+    new Quote('Rose ', 'This is my ninja', 'vick', new Date(2019, 23, 3), 0, 0),
+    new Quote('Vick', 'Life is not a matter of holding', 'Jack london', new Date(2019, 8 - 1, 17), 0, 0),
+    new Quote('Jane ', 'Life is a gift..use it', 'Hellen Nike', new Date(2019, 23, 3), 0, 0),
+    new Quote('Winnie ', 'This is my ninja', 'vick', new Date(2019, 23, 3), 0, 0)
   ];
 
 
