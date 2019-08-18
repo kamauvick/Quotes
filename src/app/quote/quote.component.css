@@ -2,19 +2,27 @@
   margin: 0;
   padding: 0;
 }
-.card{
-margin: 8px;
-  width: auto;
+
+.card {
+  margin: 10px;
+  /*width: auto;*/
+  width: 300px;
+  border: none;
+  margin-bottom: 2%;
+  background-color: aliceblue;
+  /*box-shadow: 2px 2px 3px 2px black;*/
 }
+
 .title {
   color: #000;
   text-align: center;
 }
 
 .card-header {
-  background-color: white;
-  color: #1b5666;
+  background-color: darkslateblue;
+  color: white;
   border: none;
+  height: 40px;
 }
 
 .quotes {
@@ -28,7 +36,7 @@ margin: 8px;
   justify-content: space-around;
 }
 
-.small-b{
+.small-b {
   margin-left: 20px;
 }
 

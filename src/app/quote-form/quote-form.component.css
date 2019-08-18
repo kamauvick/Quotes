@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 .form {
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 20px;
 }
 .new{
   font-size: 36px;
@@ -16,6 +15,7 @@ textarea {
 
 label{
   color: orange;
+  margin: 10px;
 }
 *{
   margin: 0;
@@ -23,4 +23,7 @@ label{
 }
 .btn{
   margin-top: 10px;
+}
+.btn-info{
+  height: 40px;
 }

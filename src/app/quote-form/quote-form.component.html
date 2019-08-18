@@ -9,7 +9,7 @@
         <p>Name is required</p>
       </div>
       <label for="message">Quote body:</label>
-      <textarea id="message" rows="10" placeholder="Quote.." class="form-control"
+      <textarea id="message"  rows="8" placeholder="Quote.." class="form-control"
                 [(ngModel)]="newQuote.message" name="message" #message='ngModel' required></textarea>
       <div [hidden]="message.valid || message.pristine" class="alert alert-danger ">
         <p>The quote is required</p>
