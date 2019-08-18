@@ -3,7 +3,7 @@
   justify-content: flex-end;
 }
 div, h5{
-  padding: 5px;
+  padding: 6px;
 }
 .hover:hover{
   border: yellow;
@@ -13,17 +13,19 @@ h5{
 }
 .vote-btn-like{
   background-image: url("~src/assets/like.png");
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   background-size: cover;
   background-position:center center;
   border-radius: 50%;
+  margin-top: 3px;
 }
 .vote-btn-dislike{
   background-image: url("~src/assets/dislike.png");
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   background-size: cover;
   background-position:center center;
   border-radius: 50%;
+  margin-top: 3px;
 }

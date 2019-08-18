@@ -9,15 +9,44 @@
   margin: 10px 10px 2%;
   background-color: aliceblue;
 }
+.quote{
+  margin: 50px 10px 10px 10px;
+  font-family: 'Source Code Pro', cursive;
+  font-weight: normal;
+  font-size: 19px;
 
+}
+#author{
+  margin: 10px 10px 10px 10px;
+  font-family: 'Source Code Pro', cursive;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+}
+#date, .date{
+  margin: 10px 10px 10px 10px;
+  font-family: 'Muli', cursive;
+  font-size: 14px;
+}
+.date{
+  color: purple;
+}
 .title {
   margin: 8px;
   color: white;
   font-family: 'Indie Flower', cursive;
 }
+.footer{
+  margin: 20px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p{
+margin-top: 10px;
+}
 
 .card-header {
-  background-color: darkslateblue;
+  background-color: #293462;
   color: white;
   border: none;
   height: 40px;
@@ -30,12 +59,6 @@
   background-position:center center;
   border-radius: 50%;
   margin: 8px;
-}
-
-.date{
-  font-family: 'Muli', sans-serif;
-  margin: 8px;
-  color: black;
 }
 
 .quotes {

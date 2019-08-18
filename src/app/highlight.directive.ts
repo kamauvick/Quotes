@@ -6,7 +6,7 @@ import {Quote} from './quote';
 })
 export class HighlightDirective {
 
-  @Input() quote: Quote;
+  @Input() likes: Quote;
 
   constructor(private elem: ElementRef) {
       this.elem.nativeElement.style.backgroundColor = '#1fc88d';

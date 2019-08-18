@@ -14,12 +14,13 @@ export class QuoteVoteComponent implements OnInit {
   }
 
   @Input() quote: Quote;
-  @Output() vote = new EventEmitter();
+  @Output() Upvote = new EventEmitter();
 
   ngOnInit() {
   }
 
   likeButtonClick() {
+    this.Upvote.emit(this.numberOfLikes);
     this.numberOfLikes++;
   }
 
