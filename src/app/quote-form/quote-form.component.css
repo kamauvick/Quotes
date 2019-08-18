@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 .form {
-    margin-top: 20px;
+  margin-top: 20px;
+  position: sticky;
+  top: 0;
+}
+.new{
+  font-size: 36px;
+  color: yellow;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 input,
 textarea {
-    width: 300px;
-    margin-right: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: none;
 }
 
 .add-quote-btn {
-    border: none;
+  border: none;
+}
+label{
+  color: orange;
 }
