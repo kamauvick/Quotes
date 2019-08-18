@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Quote } from '../quote';
+import {Component, OnInit, Input} from '@angular/core';
+import {Quote} from '../quote';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,7 +8,11 @@ import { Quote } from '../quote';
 })
 export class SidebarComponent implements OnInit {
 
-  constructor() { }
+  @Input () quote: Quote;
+
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

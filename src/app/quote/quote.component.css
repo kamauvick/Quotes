@@ -1,29 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .card {
-    height: 250px;
-    margin: 10px;
-    width: 280px;
-    margin-left: 20px;
-    border: none;
+  margin: 5px 5px 5px 5px;
+  border: none;
+}
+
+.title {
+  color: #000;
 }
 
 .card-header {
-    background-color: purple;
-    color: white;
-    border: none;
+  background-color: white;
+  color: #1b5666;
+  border: none;
 }
 
 .quotes {
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card-header {
-    display: flex;
-    margin-top: -8px;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkslateblue;
 }
 
-.card-header button {
-    margin-left: 80px;
-    opacity: 0.7;
+.small-b {
+  margin-left: 20px;
+}
+
+.small-b {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.small-b button {
+  margin: 10px;
+}
+
+.ka-form {
+  position: sticky;
+  top: 0;
 }

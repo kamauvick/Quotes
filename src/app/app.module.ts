@@ -12,6 +12,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
+import { QuoteBodyComponent } from './quote-body/quote-body.component';
+import { HighlightDirective } from './highlight.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
     QuoteComponent,
     SidebarComponent,
     QuoteFormComponent,
-    QuoteVoteComponent
+    QuoteVoteComponent,
+    QuoteBodyComponent,
+    HighlightDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
