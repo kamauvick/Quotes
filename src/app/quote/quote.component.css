@@ -4,10 +4,9 @@
 }
 
 .card {
-  margin: 10px;
   width: 300px;
   border: none;
-  margin-bottom: 2%;
+  margin: 10px 10px 2%;
   background-color: aliceblue;
 }
 
@@ -62,5 +61,34 @@
 
 .small-b button {
   margin: 10px;
+}
+
+
+.search {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #66000000;
+  border-bottom: 1px solid white;
+  margin-top: -15px;
+}
+
+input::placeholder {
+  color: wheat;
+  text-align: center;
+  font-size: 23px;
+}
+
+input {
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+}
+
+#sbar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 10px;
 }
 

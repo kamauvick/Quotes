@@ -1,14 +1,17 @@
 <div class="vick row">
   <app-quote-form class="col-sm-3 form" (addQoute)="addNewQuote($event)"></app-quote-form>
   <div class="quotes col-sm-9">
+    <!--  <input type="text" class="search col-md-8" placeholder="Search here..." id="search" >-->
     <div class="card" *ngFor="let quote of quotes, let i = index">
-      <div class="card-header">
-        <h4 class="text-center title">{{quote.title}}</h4>
-        <div class="del" (click)="toggleQuote(i)"></div>
-      </div>
-      <p>~{{quote.message}}</p>
-      <app-quote-body *ngIf="quote.showQuote" [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-body>
+      <div>
+        <div class="card-header">
+          <h4 class="text-center title">{{quote.title}}</h4>
+          <div class="del" (click)="toggleQuote(i)"></div>
+        </div>
+        <p>~{{quote.message}}</p>
+        <app-quote-body *ngIf="quote.showQuote" [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-body>
         <h6 class="text-center date">{{quote.date | date | uppercase}}</h6>
+      </div>
     </div>
   </div>
 </div>
