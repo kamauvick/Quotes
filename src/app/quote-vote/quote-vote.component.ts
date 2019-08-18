@@ -17,13 +17,13 @@ export class QuoteVoteComponent implements OnInit {
   ngOnInit() {
   }
 
-  likeMe() {
-    this.vote.emit(this.quote);
-    this.quote.like += 1;
-  }
+  // likeMe() {
+  //   this.vote.emit(this.quote);
+  //   this.quote.like += 1;
+  // }
 
-  dislikeMe() {
-    this.vote.emit(this.quote);
-    this.quote.dislike += 1;
-  }
+  // dislikeMe() {
+  //   this.vote.emit(this.quote);
+  //   this.quote.dislike += 1;
+  // }
 }
