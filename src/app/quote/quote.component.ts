@@ -19,7 +19,8 @@ export class QuoteComponent implements OnInit {
     new Quote('Jane ', 'Life is a gift..use it', 'Hellen Nike', new Date(2019, 23, 3), 0, 0),
     new Quote('Winnie ', 'This is my ninja', 'vick', new Date(2019, 23, 3), 0, 0)
   ];
-
+  numberOfLikes = 0;
+  numberOfDislikes = 0;
 
   addNewQuote(quote) {
     const quoteLength = this.quotes.length;
@@ -40,11 +41,18 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  // upvote() {
-  //   quotes.like += 1;
+  likeButtonClick() {
+   this.numberOfLikes++;
+  }
+  dislikeButtonClick() {
+   this.numberOfDislikes++;
+  }
+  // likeMe() {
+  //   this.quote.like += 1;
   // }
-  // downvote() {
-  //   quotes.dislike += 1;
+
+  // dislikeMe() {
+  //   this.quote.dislike += 1;
   // }
   constructor() {
   }
