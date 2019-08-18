@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
-.card {
-  margin: 5px 5px 5px 5px;
-  border: none;
+.card{
+margin: 8px;
+  width: auto;
 }
-
 .title {
   color: #000;
+  text-align: center;
 }
 
 .card-header {
@@ -19,19 +18,17 @@
 }
 
 .quotes {
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card-header {
   display: flex;
-  justify-content: space-evenly;
-  background-color: darkslateblue;
+  justify-content: space-around;
 }
 
-.small-b {
+.small-b{
   margin-left: 20px;
 }
 
@@ -44,7 +41,3 @@
   margin: 10px;
 }
 
-.ka-form {
-  position: sticky;
-  top: 0;
-}

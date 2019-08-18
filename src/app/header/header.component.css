@@ -1,45 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 
-/* 
-#holder {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 1);
-    padding-top: 10px;
-    position: sticky;
-}
-
-.navi {
-    flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-.navi h2 {
-    color: white;
-    margin-left: 20px;
-    font-family: 'Cabin Sketch', cursive;
-    padding-bottom: 30px;
-}
-
-ul {}
-
-li {
-    display: inline;
-    margin: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: orangered;
-}
-
-a:hover {
-    font-size: 18px;
-    color: yellow;
-} */
-
 .navbar {
     background-color: teal;
     position: sticky;

@@ -1,29 +1,27 @@
 .search {
-    border: 0;
-    background: none;
-    box-shadow: none;
-    border-radius: 0px;
-    background-color: #66000000;
-    border-bottom: 1px solid white;
-    margin-top: -15px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #66000000;
+  border-bottom: 1px solid white;
+  margin-top: -15px;
 }
 
 input::placeholder {
-    color: wheat;
-    text-align: center;
-    font-size: 23px;
+  color: wheat;
+  text-align: center;
+  font-size: 23px;
 }
 
 input {
-    color: orange;
-    text-align: center;
-    font-size: 40px;
+  color: orange;
+  text-align: center;
+  font-size: 40px;
 }
 
 #sbar {
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    margin-right: 40px;
-    padding-top: 10px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 10px;
 }

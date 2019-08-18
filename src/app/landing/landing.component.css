@@ -7,25 +7,17 @@
 .landing {
      background: linear-gradient(to bottom right, #230e4a, black);
     background-size: cover;
-    margin: 0;
-    padding: 0;
     height: inherit;
 }
 
 .overlay {
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .header-text {
     position: relative;
     font-size: 70px;
     color: darkgoldenrod;
-    top: 40%;
     font-family: 'Cabin Sketch', cursive;
-}
-#particles-js, .containers {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }

@@ -1,3 +1,14 @@
 p{
   margin: 10px;
 }
+.body{
+  display: flex;
+}
+.del{
+  background-image: url("~src/assets/del.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}

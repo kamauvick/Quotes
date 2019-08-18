@@ -1,31 +1,22 @@
-<div class=" vick row col-sm-12">
-  <app-quote-form class="col-sm-4 ka-form" (addQoute)="addNewQuote($event)"></app-quote-form>
-  <div class="quotes  col-sm-8">
-    <div class="card " *ngFor="let quote of quotes, let i = index">
+<div class="vick row">
+  <app-quote-form class="col-sm-4 form" (addQoute)="addNewQuote($event)"></app-quote-form>
+  <div class="quotes col-sm-8">
+    <div class="card" *ngFor="let quote of quotes, let i = index">
       <div class="card-header">
-        <h4 class="text-center title">{{quote.title}}</h4>
-        <div class="small-b">
-          <button class="btn btn-info del" (click)="toggleQuote(i)"
-                  style="border-radius: 50%; width: 30px; height: 30px; margin-bottom: 20px"
-          >+
-          </button>
-          <button class="btn btn-danger del" (click)="deleteQuote(true, i)"
-                  style="border-radius: 50%; width: 30px; height: 30px; margin-bottom: 20px"
-          >-
-          </button>
-        </div>
+        <h4 class="text-center">{{quote.title}}</h4>
+        <button class="btn btn-info del" (click)="toggleQuote(i)">show</button>
       </div>
       <div class="card-body">
+        <p>~{{quote.message}}</p>
         <app-quote-body *ngIf="quote.showQuote" [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-body>
-        <p> ~{{quote.author}}</p>
       </div>
       <div class="card-footer">
         <h6 class="text-center">{{quote.date | date | uppercase}}</h6>
-        <div class="vote">
-          <i clas></i>
-        </div>
       </div>
     </div>
   </div>
 </div>
+
+
+
 

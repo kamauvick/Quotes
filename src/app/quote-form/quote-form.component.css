@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 .form {
-  margin-top: 20px;
-  position: sticky;
-  top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .new{
   font-size: 36px;
@@ -12,14 +11,16 @@
 
 input,
 textarea {
-  width: 300px;
   margin-right: 10px;
-  border: none;
 }
 
-.add-quote-btn {
-  border: none;
-}
 label{
   color: orange;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.btn{
+  margin-top: 10px;
 }
