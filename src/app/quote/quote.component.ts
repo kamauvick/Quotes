@@ -40,12 +40,12 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  upvote() {
-    quotes.like += 1;
-  }
-  downvote() {
-    quotes.dislike += 1;
-  }
+  // upvote() {
+  //   quotes.like += 1;
+  // }
+  // downvote() {
+  //   quotes.dislike += 1;
+  // }
   constructor() {
   }
 
