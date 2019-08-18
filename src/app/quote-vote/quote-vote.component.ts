@@ -7,6 +7,8 @@ import {Quote} from '../quote';
   styleUrls: ['./quote-vote.component.css']
 })
 export class QuoteVoteComponent implements OnInit {
+  numberOfLikes = 0;
+  numberOfDislikes = 0;
 
   constructor() {
   }
@@ -17,13 +19,11 @@ export class QuoteVoteComponent implements OnInit {
   ngOnInit() {
   }
 
-  // likeMe() {
-  //   this.vote.emit(this.quote);
-  //   this.quote.like += 1;
-  // }
+  likeButtonClick() {
+    this.numberOfLikes++;
+  }
 
-  // dislikeMe() {
-  //   this.vote.emit(this.quote);
-  //   this.quote.dislike += 1;
-  // }
+  dislikeButtonClick() {
+    this.numberOfDislikes++;
+  }
 }

@@ -91,4 +91,19 @@ input {
   top: 0;
   padding-top: 10px;
 }
-
+.vote-btn-like{
+  background-image: url("~src/assets/like.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}
+.vote-btn-dislike{
+  background-image: url("~src/assets/dislike.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}
